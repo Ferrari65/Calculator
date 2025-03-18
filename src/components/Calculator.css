@@ -1,0 +1,56 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 3em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.Wrapper{
+    background-color: #1C1C1C;
+    border-radius: 1em;
+    padding: 1em;   
+}
+
+.btn-operator{
+    background-color: #FF9500;
+    color: white
+    ;
+}
+
+.btn-operator:hover{
+    background-color:rgb(255, 186, 82);
+
+}
+
+.calc-btn-gray{
+    background-color: #505050;
+    color: white;
+}
+
+.calc-btn-gray:hover{
+    background-color: #6E6E6E;  
+}
+
+
+.calc-btn-w{
+   background-color: #D4D4D2; 
+}
+
+.calc-btn-w:hover{
+    background-color:rgb(234, 234, 234);  
+}
+
+.Result{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size: 2em;
+    text-align: right;
+}

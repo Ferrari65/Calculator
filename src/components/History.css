@@ -1,0 +1,69 @@
+.history-icon {
+    position: absolute; 
+    top: 1.1em;          
+    left: 2.3em;;         
+    cursor: pointer;   
+    color: #FF9500;     
+}
+
+
+.Button-close {
+    width:5em;
+    height: 3em;
+    font-size: 1em;
+    border: none;
+    border-radius: 3em;
+    margin: 0.3em;
+    transition: background-color 0.3s ease;
+}
+
+.Button-close:hover {
+    cursor: pointer;
+    background-color: #FF9500;
+    color: white;
+}
+
+.modal-config{
+    width: 20%; 
+    min-width: 280px; 
+    height: auto; 
+    max-height: 30vh; 
+    overflow-x: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: flex-start;
+    background: #242426;
+    color: white;
+}
+
+
+.modal-config::-webkit-scrollbar {
+    width: 9px; 
+    height: 10px; 
+}
+
+.modal-config::-webkit-scrollbar-track {
+    background:rgb(54, 54, 54);
+    border-radius: 11px;
+}
+
+.modal-config::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+}
+
+.modal-config::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.modal-marg{
+    background: #2E2E30;
+    color: white;
+}
+
+.modal-but-close{
+    background: #2E2E30;
+}
+
+
